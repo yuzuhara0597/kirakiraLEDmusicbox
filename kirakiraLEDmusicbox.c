@@ -53,7 +53,7 @@ void kouka(void);
 
 
 
-void interrupt isr(void){
+void __interrupt() isr(void){
     TMR1H = 0x3c;
     TMR1L = 0xb0;                       //1us * (65536-15536) = 50ms
     PIR1bits.TMR1IF = 0;              // Timer1フラグクリア
