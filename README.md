@@ -2,8 +2,8 @@
 PIC16F18313使用イルミネーション電子オルゴール  
 Musicbox for PIC16F18313 with illumination  
 # 回路図/Circuit
-kirakiraLED_circuit.pngを参考のこと  
-Look at kirakiraLED_circuit.png
+![回路図](https://github.com/yuzuhara0597/kirakiraLEDmusicbox/blob/master/kirakiraLED_circuit.png) 
+
 # 使い方/Usage
 1.電源を入れる(電池を入れる)  
 2.タクトスイッチを押すと曲が切り替わる  
